@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+body{
+	background: #FDF5E6;
+	font: 12px arial, tahoma, sans-serif;
+}
+.circle{
+border-radius: 3px;	
+}
+#page_align{
+	width: 1000px;
+	margin: 35px auto;
+	background: url("../images/background_align.jpg");
+	box-shadow: 0px 1px 5px black;
+	overflow: hidden;
+}
+#header{
+	height: 535px;
+	border-bottom: solid 2px #564;
+}
+#header_navig{
+	height: 35px;	
+	background: red;
+}
+#header_navig ul{
+	list-style: none;
+	
+}
+#header_navig ul li{
+	float: left;
+	border-right: solid 1px #D8270F;
+	border-radius: 5px;
+	box-shadow: inset 1px 1px 1px 1px #BD2905;
+	
+}	
+#header_navig ul li: last-child{
+	border-right: none;
+}
+#header_navig ul li a{
+	color: #fff;
+	line-height: 35px;
+	padding: 0 7px;
+	display: block;
+	text-decoration: none;
+}
+#header_navig ul li a:hover{
+	background: #333;
+	border-radius: 5px;
+}
+
+#header_slider{
+	height: 500px;
+	background: url("../images/prosmotr_baner.jpg") no-repeat;
+	border-bottom: solid 2px #BD2905;
+	
+}
+#sidebar{
+	width: 196px;
+	float: left;
+}
+#calendar{
+	table-layout: fixed;
+	font-size: 12px;
+	padding-left: 5px;
+	
+}
+#content{
+	background: white;
+	float: right;
+	width: 800px;
+	
+	
+	
+}
+
+
+
